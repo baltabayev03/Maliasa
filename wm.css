@@ -1,0 +1,40 @@
+.gradient-text {
+    font-size: 40px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, black 33%, gray 66%, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    display: table;
+    margin: 20px auto;
+}
+.gradient-text1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, lightseagreen 33%, black 66%, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    display: table;
+    margin: 20px auto;
+}
+.p {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+    color: red;
+}
+#panel, #flip {
+    padding: 1px;
+    text-align: center;
+    background-color: lightseagreen;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 20px;
+    display: none;
+}
+.size {
+    font-size: 80px;
+}
